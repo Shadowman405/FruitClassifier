@@ -13,6 +13,7 @@
 		BFC08729274ACEEB008E90D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC08727274ACEEB008E90D3 /* Main.storyboard */; };
 		BFC0872B274ACEF4008E90D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC0872A274ACEF4008E90D3 /* Assets.xcassets */; };
 		BFC0872E274ACEF4008E90D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC0872C274ACEF4008E90D3 /* LaunchScreen.storyboard */; };
+		BFC08739274AE004008E90D3 /* FruitClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BFC08738274AE004008E90D3 /* FruitClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BFC0872A274ACEF4008E90D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFC0872D274ACEF4008E90D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFC0872F274ACEF4008E90D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC08738274AE004008E90D3 /* FruitClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FruitClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		BFC08720274ACEEB008E90D3 /* FruitClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				BFC08738274AE004008E90D3 /* FruitClassifier.mlmodel */,
 				BFC08721274ACEEB008E90D3 /* AppDelegate.swift */,
 				BFC08723274ACEEB008E90D3 /* SceneDelegate.swift */,
 				BFC08725274ACEEB008E90D3 /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			files = (
 				BFC08726274ACEEB008E90D3 /* ViewController.swift in Sources */,
 				BFC08722274ACEEB008E90D3 /* AppDelegate.swift in Sources */,
+				BFC08739274AE004008E90D3 /* FruitClassifier.mlmodel in Sources */,
 				BFC08724274ACEEB008E90D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
